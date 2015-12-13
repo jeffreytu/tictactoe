@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2B2B2B;
+}
+ .board {
+ 	width: 100%;
+ 	display: block;
+ 	text-align: center;
+ }
+.field {
+	width: 13vw;
+	height: 13vw;
+	line-height: 13vw;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 8vw;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	background-color: #363636;
+	margin: 4px 2px;
+}
+.field:hover {
+	background-color: #4D4D4D;
+}
+.user {
+	width: 40vw;
+	height: 8vh;
+	margin: 0 auto;
+}
+#log, #new {
+	width: 50%;
+	float: right;
+	font-family: 'Bangers', cursive;
+	font-size: 3vw;
+}
+#log {
+	text-align: right;
+	color: #F3D400;	
+}
+#new {
+	color: #656565;
+	float: left;
+}
+#new:hover {
+	color: #F1F1F1;
+	cursor: pointer;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	margin-top: -23vw;
+	width: 100%;
+}
+.notice {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #6D6D6D;
+	text-align: right;
+	padding: 0 10px 10px 0;
+	font-size: 1.1em;
+}
+a:visited {
+	color: #6D6D6D;
+}
